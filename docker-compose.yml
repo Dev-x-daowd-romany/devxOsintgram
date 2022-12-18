@@ -1,0 +1,8 @@
+version: '1.0'
+
+services:
+  devxOsintgram:
+    container_name: devxOsintgram
+    build: .
+    volumes:
+      - ./output:/home/devxOsintgram/output
